@@ -1,0 +1,346 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A9D13BF02401B7E6006C0EAB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9D13BEF2401B7E6006C0EAB /* AppDelegate.swift */; };
+		A9D13BF22401B7E6006C0EAB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9D13BF12401B7E6006C0EAB /* ViewController.swift */; };
+		A9D13BF42401B7E8006C0EAB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9D13BF32401B7E8006C0EAB /* Assets.xcassets */; };
+		A9D13BF72401B7E8006C0EAB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9D13BF52401B7E8006C0EAB /* Main.storyboard */; };
+		A9D13C022401BF21006C0EAB /* NSScreen+Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = A9D13C002401BF21006C0EAB /* NSScreen+Extensions.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A9D13BEC2401B7E6006C0EAB /* Desktop Background Image Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Desktop Background Image Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9D13BEF2401B7E6006C0EAB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A9D13BF12401B7E6006C0EAB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A9D13BF32401B7E8006C0EAB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A9D13BF62401B7E8006C0EAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A9D13BF82401B7E8006C0EAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9D13BF92401B7E8006C0EAB /* Desktop_Background_Image_Test.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Desktop_Background_Image_Test.entitlements; sourceTree = "<group>"; };
+		A9D13BFF2401BF20006C0EAB /* Desktop Background Image Test-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Desktop Background Image Test-Bridging-Header.h"; sourceTree = "<group>"; };
+		A9D13C002401BF21006C0EAB /* NSScreen+Extensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSScreen+Extensions.m"; path = "../../../Development/Objective Development/Micro Snitch/ODFrameworks/ODAppKit/Cocoa Extensions/NSScreen+Extensions.m"; sourceTree = "<group>"; };
+		A9D13C012401BF21006C0EAB /* NSScreen+Extensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSScreen+Extensions.h"; path = "../../../Development/Objective Development/Micro Snitch/ODFrameworks/ODAppKit/Cocoa Extensions/NSScreen+Extensions.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A9D13BE92401B7E6006C0EAB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A9D13BE32401B7E6006C0EAB = {
+			isa = PBXGroup;
+			children = (
+				A9D13BEE2401B7E6006C0EAB /* Desktop Background Image Test */,
+				A9D13BED2401B7E6006C0EAB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A9D13BED2401B7E6006C0EAB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A9D13BEC2401B7E6006C0EAB /* Desktop Background Image Test.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A9D13BEE2401B7E6006C0EAB /* Desktop Background Image Test */ = {
+			isa = PBXGroup;
+			children = (
+				A9D13C012401BF21006C0EAB /* NSScreen+Extensions.h */,
+				A9D13C002401BF21006C0EAB /* NSScreen+Extensions.m */,
+				A9D13BEF2401B7E6006C0EAB /* AppDelegate.swift */,
+				A9D13BF12401B7E6006C0EAB /* ViewController.swift */,
+				A9D13BF32401B7E8006C0EAB /* Assets.xcassets */,
+				A9D13BF52401B7E8006C0EAB /* Main.storyboard */,
+				A9D13BF82401B7E8006C0EAB /* Info.plist */,
+				A9D13BF92401B7E8006C0EAB /* Desktop_Background_Image_Test.entitlements */,
+				A9D13BFF2401BF20006C0EAB /* Desktop Background Image Test-Bridging-Header.h */,
+			);
+			path = "Desktop Background Image Test";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A9D13BEB2401B7E6006C0EAB /* Desktop Background Image Test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9D13BFC2401B7E8006C0EAB /* Build configuration list for PBXNativeTarget "Desktop Background Image Test" */;
+			buildPhases = (
+				A9D13BE82401B7E6006C0EAB /* Sources */,
+				A9D13BE92401B7E6006C0EAB /* Frameworks */,
+				A9D13BEA2401B7E6006C0EAB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Desktop Background Image Test";
+			productName = "Desktop Background Image Test";
+			productReference = A9D13BEC2401B7E6006C0EAB /* Desktop Background Image Test.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A9D13BE42401B7E6006C0EAB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Objective Development";
+				TargetAttributes = {
+					A9D13BEB2401B7E6006C0EAB = {
+						CreatedOnToolsVersion = 11.3;
+						LastSwiftMigration = 1130;
+					};
+				};
+			};
+			buildConfigurationList = A9D13BE72401B7E6006C0EAB /* Build configuration list for PBXProject "Desktop Background Image Test" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A9D13BE32401B7E6006C0EAB;
+			productRefGroup = A9D13BED2401B7E6006C0EAB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A9D13BEB2401B7E6006C0EAB /* Desktop Background Image Test */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A9D13BEA2401B7E6006C0EAB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9D13BF42401B7E8006C0EAB /* Assets.xcassets in Resources */,
+				A9D13BF72401B7E8006C0EAB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A9D13BE82401B7E6006C0EAB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9D13BF22401B7E6006C0EAB /* ViewController.swift in Sources */,
+				A9D13BF02401B7E6006C0EAB /* AppDelegate.swift in Sources */,
+				A9D13C022401BF21006C0EAB /* NSScreen+Extensions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A9D13BF52401B7E8006C0EAB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A9D13BF62401B7E8006C0EAB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A9D13BFA2401B7E8006C0EAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A9D13BFB2401B7E8006C0EAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		A9D13BFD2401B7E8006C0EAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = "Desktop Background Image Test/Desktop_Background_Image_Test.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = MLZF7K7B5R;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = "Desktop Background Image Test/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "at.obdev.Desktop-Background-Image-Test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Desktop Background Image Test/Desktop Background Image Test-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		A9D13BFE2401B7E8006C0EAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = "Desktop Background Image Test/Desktop_Background_Image_Test.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = MLZF7K7B5R;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = "Desktop Background Image Test/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "at.obdev.Desktop-Background-Image-Test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Desktop Background Image Test/Desktop Background Image Test-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A9D13BE72401B7E6006C0EAB /* Build configuration list for PBXProject "Desktop Background Image Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9D13BFA2401B7E8006C0EAB /* Debug */,
+				A9D13BFB2401B7E8006C0EAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A9D13BFC2401B7E8006C0EAB /* Build configuration list for PBXNativeTarget "Desktop Background Image Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9D13BFD2401B7E8006C0EAB /* Debug */,
+				A9D13BFE2401B7E8006C0EAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A9D13BE42401B7E6006C0EAB /* Project object */;
+}
